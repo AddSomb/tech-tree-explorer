@@ -18,6 +18,8 @@ const configUrls = {
 		'https://raw.githubusercontent.com/CivClassic/AnsibleSetup/master/templates/public/plugins/FactoryMod/config.yml.j2',
 	CivRealms:
 		'https://raw.githubusercontent.com/CivTopWolf/CC/master/config.yml',
+	CivReign:
+		'https://raw.githubusercontent.com/CivUnion/FactoryMod/blob/master/paper/src/main/resources/config.yml',
 	test: '/config.yml',
 }
 
@@ -25,7 +27,7 @@ const FMConfigContext = createContext<FMConfig>(undefined!)
 
 /** loads FM config, routes pages */
 export function App() {
-	const [configUrl] = useState(configUrls.CivMC)
+	const [configUrl] = useState(configUrls.CivReign)
 
 	const {
 		data: fmConfig,

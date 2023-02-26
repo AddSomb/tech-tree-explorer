@@ -19,7 +19,7 @@ const configUrls = {
 	CivRealms:
 		'https://raw.githubusercontent.com/CivTopWolf/CC/master/config.yml',
 	CivReign:
-		'https://raw.githubusercontent.com/CivUnion/FactoryMod/blob/master/paper/src/main/resources/config.yml',
+		'https://raw.githubusercontent.com/CivUnion/CivReign-Config/blob/main/plugins/FactoryMod/config.yml',
 	test: '/config.yml',
 }
 

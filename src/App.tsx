@@ -27,7 +27,7 @@ const FMConfigContext = createContext<FMConfig>(undefined!)
 
 /** loads FM config, routes pages */
 export function App() {
-	const [configUrl] = useState(configUrls.CivReign)
+	const [configUrl] = useState(configUrls.CivMC)
 
 	const {
 		data: fmConfig,
